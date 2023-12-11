@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "css/normalize.css">
+    <link rel="stylesheet" href=  "css/main.css">
+
+    
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav class="structural">
+        <p>
+            <a href="index.html">Index</a><br>
+            <a href="gallery.html">Gallery</a><br>
+            <a href="media.html">Media</a>
+        </p>
+    </nav>
+    <main>
+        <h2>Chandra Shekhar Azad Quiz</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required autofocus>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>What was Chandra Shekhar Azad's date of birth?</legend>
+                    <label for="option1"><input type="radio" id="option1" name="dob" value="July 23, 1906" required>July 23, 1906</label><br>
+                    <label for="option2"><input type="radio" id="option2" name="dob" value="August 15, 1907" required>August 15, 1907</label><br>
+                    <label for="option3"><input type="radio" id="option3" name="dob" value="September 11, 1908" required>September 11, 1908</label>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>When did Chandra Shekhar Azad pass away?</legend>
+                    <label for="deathOption1"><input type="radio" id="deathOption1" name="death" value="February 27, 1931" required>February 27, 1931</label><br>
+                    <label for="deathOption2"><input type="radio" id="deathOption2" name="death" value="March 23, 1931" required>March 23, 1931</label><br>
+                    <label for="deathOption3"><input type="radio" id="deathOption3" name="death" value="April 13, 1931" required>April 13, 1931</label>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Which was the organization founded by Chandra Shekhar Azad?</legend>
+                    <label for="organization1"><input type="radio" id="organization1" name="org" value="Hindustan Socialist Republican Association" required>Hindustan Socialist Republican Association</label><br>
+                    <label for="organization2"><input type="radio" id="organization2" name="org" value="Indian National Congress" required>Indian National Congress</label><br>
+                    <label for="organization3"><input type="radio" id="organization3" name="org" value="All India Muslim League" required>All India Muslim League</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+            </div>
+            <div>
+                <label for="human"><input type="checkbox" id="human" name="human" value="true" required>I am a human</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

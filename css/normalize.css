@@ -1,0 +1,195 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(173, 165, 165);
+    margin: 0;
+}
+
+h1, h2, aside {
+    color: green;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+p, q {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Navigation */
+nav p {
+    text-align: center;
+}
+
+nav p a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Main Section */
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 10px 0;
+}
+
+/* Images */
+img {
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+}
+
+/* Gallery Specific */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.image-grid figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 60%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-grid img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 8px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* media.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Change to your preferred background color */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: navy; /* Change to your preferred heading color */
+    text-align: center;
+}
+
+/* Video Section */
+video {
+    display: block;
+    margin: 0 auto;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Set a maximum width if required */
+}
+
+/* Navigation */
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue; /* Change to your preferred link color */
+}
+
+ul li a:hover {
+    color: navy; /* Change to your preferred link hover color */
+}
+
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(173, 165, 165);
+    margin: 0;
+}
+
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.image {
+    flex: 1;
+}
+
+.table {
+    flex: 1;
+}
+
+
